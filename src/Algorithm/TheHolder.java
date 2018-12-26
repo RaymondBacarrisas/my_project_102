@@ -15,6 +15,7 @@ public class TheHolder
 		theFrame.getContentPane().add(TopHolder = Holder_Function(2, 2, 396, (int) dim().getHeight() - 48));
 		theFrame.getContentPane().add(BottomHolder = Holder_Function(2, (int) dim().getHeight() - 44, 396, 40));
 		BubbleSort bs1 = new BubbleSort(TopHolder);
+		Palindrome paldrome = new Palindrome(TopHolder);
 		BottomHolderControls btmHCtrl = new BottomHolderControls(BottomHolder);
 		DateTime dt = new DateTime(BottomHolder);
 	}

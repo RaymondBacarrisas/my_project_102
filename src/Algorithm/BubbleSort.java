@@ -79,7 +79,6 @@ public class BubbleSort implements ActionListener
 		if(command.equals("BUBBLE_SORT"))
 		{
 			bubbluSortFunction();
-			System.out.println("BUBBLE SORT");
 		}
 	}
 	
